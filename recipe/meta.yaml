@@ -1,4 +1,4 @@
-{% set version = "2019-11.26" %}
+{% set version = "2020-2.3" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/lbfgsb3c_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/lbfgsb3c/lbfgsb3c_{{ version }}.tar.gz
-  sha256: fbe508eee7f75b4768b58b932f875237b228e9915ebdb3cddbfb06f814dce4f2
+  sha256: bf7b6433adc9c9177b004ae1b380b55244f02646f3c212846e36daf368aaea45
 
 build:
   merge_build_host: True  # [win]

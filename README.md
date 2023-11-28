@@ -3,6 +3,7 @@ About r-lbfgsb3c-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-lbfgsb3c-feedstock/blob/main/LICENSE.txt)
 
+
 About r-lbfgsb3c
 ----------------
 
@@ -11,6 +12,7 @@ Home: https://CRAN.R-project.org/package=lbfgsb3c
 Package license: GPL-2.0-only
 
 Summary: Interfacing to Nocedal et al. L-BFGS-B.3.0 (2011 <doi:10.1145/2049662.2049669>) limited memory BFGS minimizer with bounds on parameters. This is a fork of 'lbfgsb3'.  This registers a 'R' compatible 'C' interface to L-BFGS-B.3.0 that uses the same function types and optimization as the optim() function (see writing 'R' extensions and source for details).  Ths package also adds more stopping criterion as well as allows adjusting more tolerances.
+
 About r-lbfgsb3c
 ----------------
 
@@ -153,7 +155,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance

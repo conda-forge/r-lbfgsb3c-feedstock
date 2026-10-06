@@ -1,4 +1,4 @@
-{% set version = "2024-3.5" %}
+{% set version = "2026-3.5" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/lbfgsb3c_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/lbfgsb3c/lbfgsb3c_{{ version }}.tar.gz
-  sha256: b2efe1c7e89144dc0bb0595c5e52e3518e92c25c14c65a4a263b1770cb9ef165
+  sha256: c949a2ef1d6c13d6e42e740ce839634c80ee8f057c69dd42e9b0009ee621f40c
 
 build:
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -51,8 +51,8 @@ test:
 about:
   home: https://CRAN.R-project.org/package=lbfgsb3c
   license: GPL-2.0-only
-  summary: Interfacing to Nocedal et al. L-BFGS-B.3.0 (2011 <doi:10.1145/2049662.2049669>) limited memory BFGS minimizer with bounds on parameters. This is a fork of 'lbfgsb3'.  This registers a 'R' compatible 'C' interface to L-BFGS-B.3.0 that uses the same function types and optimization as the optim() function (see writing
-    'R' extensions and source for details).  Ths package also adds more stopping criterion as well as allows adjusting more tolerances.
+  summary: Interfacing to Nocedal et al. L-BFGS-B.3.0 (2011 <doi:10.1145/2049662.2049669>) limited memory BFGS minimizer with bounds on parameters. This is a fork of 'lbfgsb3'.  This registers a 'R' compatible 'C' interface to L-BFGS-B.3.0 that uses the same function types and optimization as the optim() function (see 
+    writing 'R' extensions and source for details).  Ths package also adds more stopping criterion as well as allows adjusting more tolerances.
   license_family: GPL2
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
